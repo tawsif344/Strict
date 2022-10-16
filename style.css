@@ -1,0 +1,233 @@
+ /*Google-fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+/*-=-=-=-=Common=--=CSS*/
+body{
+	font-family: 'Lato';
+}
+p{
+	color: #999999;
+}
+img{
+	width: 100%;
+	height: auto;
+}
+a:hover{
+	text-decoration: none;
+}
+
+/*-=-=-=-=header=--=CSS*/
+.strict_header{
+	background-color: #ededed;
+	padding: 30px 0;
+}
+.strict_menu ul li a{
+	color: #2c3e50;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+	text-transform: capitalize;
+	font-weight: 700;
+	transition: .3s;
+}
+.strict_menu ul li a:hover{
+	color: #15a4fa;
+}
+/*-=-=-=-=banner=--=CSS*/
+.strict_banner{
+	background-image: url('img/background.png');
+	background-repeat: no-repeat;
+	background-size: cover;;
+	background-position: center;
+	text-align: center;
+	padding-top: 80px;
+}
+.strict_banner_text h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 60px;
+	padding-bottom: 30px;
+}
+.strict_banner_text span{
+	color: #fff;
+	border-top: 1px solid #15a4fa;
+	padding: 30px 20px 0;
+	display: inline-block;
+}
+.strict_banner_button{
+	padding: 65px 0;
+}
+.strict_banner_button a{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	border-radius: 2px;
+	text-decoration: none;
+	padding: 10px 25px;
+	transition: .3s;
+}
+.strict_banner_button a:hover{
+	background-color: #15a4fa;
+}
+.strict_banner_button i{
+	display: block;
+	color: #fff;
+	margin-top: 130px;
+}
+
+/*-=-=-=-=about=--=CSS*/
+
+.strict_sec_titel{
+	text-align: center;
+	padding-bottom: 25px;
+}
+.strict_sec_titel h2{
+	color: #2d3950;
+	font-size: 35px;
+}
+.strict_about_content{
+	text-align: center;
+}
+.section_About{
+	background-color: #f6f9f9;
+	padding: 80px;
+}
+
+/*service-icon-css*/
+.service_section{
+	padding: 60px;
+}
+.strict_sevice_content{
+	text-align: center;
+}
+.strict_sr_icon{
+	width: 60px;
+	height: 50px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.strict_sr_icon i{
+	font-size: 35px;
+	color: #fff;
+}
+.strict_sr_text h4{
+	font-size: 20px;
+}
+
+/*portfolio--css*/
+.strict_portfolio{
+	padding: 80px 0;
+}
+.strict_header_port_title{
+	text-align: center;
+}
+.strict_port_img{
+	position: relative;
+	margin-bottom: 25px;
+}
+.strict_overllay{
+	background-color: rgba(21, 164, 250, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: .5s;
+}
+.strict_overllay ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+.strict_overllay ul li{
+	border: 1px solid #fff;
+	width: 35px;
+	height: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 3px;
+}
+.strict_overllay ul li i{
+	color: #fff;
+}
+.strict_port_img:hover .strict_overllay{
+	opacity: 1;
+}
+
+/*contract--css*/
+.strict_contarct{}
+.contract_title{
+	text-align: center;
+	color: #fff;
+}
+input{
+	margin: 10px 0;
+}
+.strict_contarct{
+	background-image: url(img/contract-back.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.strict_contract_overlay{
+	background: rgba(45, 57, 80, .8);
+	padding: 80px 0;
+}
+.strict_contarct_form{}
+.strict_contarct_form .form-group input,
+.strict_contarct_form .form-group textarea{
+	background-color: transparent;
+	border: 1px solid #999;
+}
+.strict_form_bottom{
+	outline: hidden;
+}
+.strict_form_left{
+	float: left;
+}
+.strict_form_left input{
+	margin-right: 5px
+}
+.strict_form_left label{
+	color: #fff;
+}
+.strict_form_right{
+	float: right;
+}
+.strict_form_right input{
+	color: #fff;
+	border: 1px solid #15a4fa;
+	background-color: transparent;
+	padding: 3px 20px;
+	border-radius: 2px;
+	transition: .5s;
+}
+.strict_form_right:hover input{
+	background-color: #15a4fa;
+}
+/*footer--css*/
+.strict_footer_section{
+	text-align: center;
+	align-items: center;
+}
+.strict_copyright
+.strict_logo_icon{}
+.strict_logo_icon ul{
+	display: flex;
+}
+.strict_logo_icon ul li{
+	list-style: none;
+	margin: 0 10px;
+}
